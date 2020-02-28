@@ -36,5 +36,4 @@ class TitleFragment : Fragment() {
                 view!!.findNavController())
                 || super.onOptionsItemSelected(item)
     }
-
 }
