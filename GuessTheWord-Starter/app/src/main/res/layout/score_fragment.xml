@@ -74,7 +74,7 @@
             android:text="@string/play_again"
             android:theme="@style/GoButton"
             android:visibility="visible"
-            android:onClick="@{() -> scoreViewModel.onPlayAgain()"
+            android:onClick="@{() -> scoreViewModel.onPlayAgain()}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
