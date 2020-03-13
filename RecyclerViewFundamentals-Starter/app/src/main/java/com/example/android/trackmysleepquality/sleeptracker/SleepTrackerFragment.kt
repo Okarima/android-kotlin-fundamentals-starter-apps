@@ -72,7 +72,7 @@ class SleepTrackerFragment : Fragment() {
         // Observe changes to data and pass to RecyclerView adapter
         sleepTrackerViewModel.nights.observe(this, Observer {
             it?.let {
-                adapter.data = it
+                adapter.submitList(it)
             }
         })
 
